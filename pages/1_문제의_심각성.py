@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
-from plotly.subplots import make_subplots
+from pathlib import Path
 
 # ── 페이지 설정 ───────────────────────────────────────────────────────────────
 st.set_page_config(page_title="문제의 심각성", page_icon="🔴", layout="wide")
