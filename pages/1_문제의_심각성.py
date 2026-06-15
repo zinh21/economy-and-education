@@ -5,6 +5,10 @@ import plotly.express as px
 import plotly.graph_objects as go
 from pathlib import Path
 
+# ── 경로 설정 ─────────────────────────────────────────────────────────────────
+BASE_DIR = Path(__file__).resolve().parent.parent
+DATA_DIR = BASE_DIR / "data"
+
 # ── 페이지 설정 ───────────────────────────────────────────────────────────────
 st.set_page_config(page_title="문제의 심각성", page_icon="🔴", layout="wide")
 
